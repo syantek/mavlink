@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<mavlink>
+    <include>common.xml</include>
+    <enums></enums>
+    <messages>
+        <message id="227" name="FAULT_DETECT">
+          <description>The fault detect message contains the detection threshold and residual power for residual power based fault detection onboard the vehicle</description>
+          <field type="float" name="residual_power">Residual power value</field>
+          <field type="float" name="detector_threshold">fault detection threshold parameter</field>
+        </message>
+    </messages>
+</mavlink>
